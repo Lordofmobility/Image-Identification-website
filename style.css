@@ -1,6 +1,6 @@
 body {
-    color: pink;
-    background-color: green;
+    color:blue;
+    background-color: pink;
 }
 
 .heading {
@@ -8,12 +8,12 @@ body {
     font-size: 22px;
 }
 
-#camera {
+#camera, #result {
     width: 350px;
     height: 300px;
-    border: 10px dashed royalblue;
+    border: 1px dashed mediumvioletred;
 }
 
 .name_of_objects, #result_object_name, #result_object_accuracy {
-    color:white;
+    color: red;
 }

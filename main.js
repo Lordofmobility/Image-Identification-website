@@ -17,7 +17,7 @@ Webcam.snap(function(data_uri) {
 
 console.log("ml5 version = " + ml5.version);
 
-classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/cOd73LmW_/model.json", modelLoaded)
+classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/O1cyoACUi/model.json", modelLoaded)
 
 function modelLoaded() {
     console.log("Model Loaded");
